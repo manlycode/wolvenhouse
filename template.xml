@@ -149,6 +149,8 @@ a img {
   background-position: center;
   margin-left: auto;
   margin-right: auto;
+  text-indent: -99999px;
+  background: url(http://1.bp.blogspot.com/-mshG6k9myz0/UlMFb-qqPKI/AAAAAAAABUs/1t80wse_7-Q/s640/DSC_0146.JPG);
 }
 
 #header { 
@@ -1170,9 +1172,6 @@ div.innerHTML = summary;}
           <a expr:name='data:post.id'/>
           <b:if cond='data:post.title'>
             <h3 class='post-title entry-title' itemprop='name'>
-<span class='numComments'>
-<a expr:href='data:post.url'>
-<data:post.numComments/></a></span>
               <b:if cond='data:post.link'>
                 <a expr:href='data:post.link'><data:post.title/></a>
               <b:else/>
@@ -1341,16 +1340,6 @@ div.innerHTML = summary;}
 
     <div class='post-footer'>
     <div class='post-footer-line post-footer-line-1'>
-<div class='pw_widget pw_size_16'>
-	<a class='pw_googleplus'/>
-	<a class='pw_facebook'/>
-       <a class='pw_orkut'/>
-       <a class='pw_linkedin'/>
-       <a class='pw_digg'/>
-	<a class='pw_twitter'/>
-	<a class='pw_email'/>
-</div>
-<script src='http://i.po.st/static/script/post-widget.js#publisherKey=qeugnso1f5i4ahd60e0k' type='text/javascript'/>
 
       <span class='post-author vcard'>
         <b:if cond='data:top.showAuthor'>
